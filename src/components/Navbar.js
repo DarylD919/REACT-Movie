@@ -7,7 +7,7 @@ export default function Navbar() {
         <nav className="navbar">
             <div className="max-width">
                 <div className="brand">
-                    <Link to="/">Hype Review</Link>
+                    <Link className="brand-logo" to="/">Hype Review</Link>
                 </div>
                 <ul className="nav">
                     <li>
