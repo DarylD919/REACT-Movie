@@ -4,6 +4,8 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Home from './components/Pages/Home';
 import Hype from './components/Pages/Hype';
+import Library from './components/Pages/Library';
+import Signin from './components/Pages/Signin';
 
 
 function App() {
@@ -14,6 +16,8 @@ function App() {
       <Switch>
         <Route path="/" component={Home} exact/>
         <Route path="/hype" component={Hype} />
+        <Route path="/library" component={Library} />
+        <Route path="/signin" component={Signin} />
       </Switch>
     </Router>
     </>

@@ -6,7 +6,9 @@
 }
 
 .home,
-.hype{
+.hype,
+.library,
+.signin{
   display: flex;
   height: 90vh;
   align-items: center;
@@ -73,7 +75,8 @@
 
 /* layout */
 
-.home { 
+.home
+{ 
   color: rgb(0, 0, 0);
   font-size: 100px;
 }
