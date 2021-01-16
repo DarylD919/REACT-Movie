@@ -19,6 +19,18 @@
   max-width: 1300px;
 }
 
+button{
+  background-color: #fff;
+  border: 1px solid;
+  padding: 10px 10px;
+  border-radius: 6px;
+}
+
+button:hover{
+  color: #fff;
+  background-color: rgba(0, 109, 91, 0.644);
+}
+
 /* navigation  */
 .navbar{
   background-color: #00d3b7cb;
@@ -41,7 +53,6 @@
 
 
 .nav-links{
-  /* background-color: rgb(32, 218, 147); */
   color: #fff;
   display: flex;
   align-items: center;
@@ -64,7 +75,7 @@
   border: 1px solid;
   border-radius: 6px;
   margin: 0 2rem;
-  padding: 1rem 2rem;
+  padding: 0 1.5rem;
   height: 100%;
 }
 .nav-links-button:hover{
@@ -75,16 +86,31 @@
 
 /* layout */
 
-.home
-{ 
-  color: rgb(0, 0, 0);
-  font-size: 100px;
+/* home */
+.home{
+  background-image: linear-gradient(120deg, rgb(56, 56, 56), rgba(0, 0, 0, 0.5)), url('/src/images/img-1.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: rgb(255, 255, 255);
 }
+
+.btn{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 6rem;
+  margin-left: -11rem;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+
 
 /* footer */
 
 .footer-container {
-  background-color: #4b4b4b;
+  background-color:  #00d3b7cb;
   padding: 4rem 0 2rem 0;
   display: flex;
   flex-direction: column;
@@ -206,7 +232,7 @@
 }
 
 .social-logo {
-  color: #fff;
+  color: rgb(255, 255, 255);
   justify-self: start;
   margin-left: 20px;
   cursor: pointer;
@@ -215,6 +241,12 @@
   display: flex;
   align-items: center;
   margin-bottom: 16px;
+}
+
+
+.social-logo:hover{
+  color: #000000;
+  text-decoration: none;
 }
 
 .website-rights {
