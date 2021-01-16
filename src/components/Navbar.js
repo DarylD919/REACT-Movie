@@ -1,30 +1,29 @@
-import React from 'react'
-import { Link } from "react-router-dom";
+import React from 'react';
+import { Link } from 'react-router-dom';
+import '../App.css'
 
-export default function Navbar() {
-    return (
-        <>
-        <nav className="navbar">
-            <div className="max-width">
-                <div className="brand">
-                    <Link className="brand-logo" to="/">Hype Review</Link>
-                </div>
-                <ul className="nav">
-                    <li>
-                        <Link to="/" className="nav-links">Home</Link>
-                    </li>
-                    <li>
-                        <Link to="/" className="nav-links">Library</Link>
-                    </li>
-                    <li>
-                        <Link to="/" className="nav-links">Hype</Link>
-                    </li>
-                    <li>
-                        <Link to="/" className="nav-links">Signin</Link>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-        </>
+export default function NavBar() {
+return (
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/">Hype Review</a>
+        <div class="d-flex" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                    <Link class="nav-link" to="/library">Library</Link>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/hype">Hype</a>
+                </li>
+                <li class="nav-item">
+                    <Link class="nav-link" to="/signin">SignIn</Link>
+                </li>
+            </ul>
+        </div>
+  </div>
+</nav>
     )
 }

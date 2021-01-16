@@ -2,6 +2,8 @@ import React from 'react'
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import './App.css';
 import Navbar from './components/Navbar';
+import Home from './components/Pages/Home';
+import Hype from './components/Pages/Hype';
 
 
 function App() {
@@ -9,6 +11,8 @@ function App() {
     <Router>
       <Navbar />
       <Switch>
+        <Route to="/" component={Home} exact/>
+        <Route to="/hype" component={Hype} />
       </Switch>
     </Router>
   );
