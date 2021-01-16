@@ -8,13 +8,15 @@ import Hype from './components/Pages/Hype';
 
 function App() {
   return (
+    <>
     <Router>
       <Navbar />
       <Switch>
-        <Route to="/" component={Home} exact/>
-        <Route to="/hype" component={Hype} />
+        <Route path="/" component={Home} exact/>
+        <Route path="/hype" component={Hype} />
       </Switch>
     </Router>
+    </>
   );
 }
 

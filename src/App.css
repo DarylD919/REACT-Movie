@@ -5,7 +5,7 @@
   font-family: 'Fira Sans', sans-serif;
 }
 
-.main,
+.home,
 .hype{
   display: flex;
   height: 90vh;
@@ -23,13 +23,15 @@
 
 }
 
-a .navbar-brand{
-  color: rgb(32, 218, 147);
-  font-size: 2rem;
+.navbar-brand{
+  padding: 10px 10px;
+  background-color: rgb(32, 218, 147);
+  border-radius: 5px;
 }
 
 .nav-item{
   background-color: rgb(32, 218, 147);
+  text-decoration: none;
   border-radius: 1px;
   padding: 10px 20px;
   cursor: pointer;
@@ -39,14 +41,23 @@ a .navbar-brand{
   background-color: rgba(1, 255, 213, 0.644);
 }
 
+.nav-links {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  height: 100%;
+}
+
+.nav-links:hover{
+  color: #000000;
+  text-decoration: none;
+}
+
 
 /* layout */
 
 .home { 
-  background-color: gray;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
+  color: rgb(0, 0, 0);
   font-size: 100px;
 }

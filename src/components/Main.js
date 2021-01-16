@@ -1,9 +1,10 @@
 import React from 'react'
+import '../App.css'
 
 export default function Main() {
     return (
-        <div>
-            <h1>Welcome to Hypev1.0</h1>
+        <div className="home">
+            <h1>Welcome to Hype Review</h1>
         </div>
     )
 }
