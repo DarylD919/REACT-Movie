@@ -7,7 +7,6 @@
 
 .home,
 .hype,
-.library,
 .signin{
   display: flex;
   height: 90vh;
@@ -29,6 +28,16 @@ button{
 button:hover{
   color: #fff;
   background-color: rgba(0, 109, 91, 0.644);
+}
+
+.btn{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 6rem;
+  margin-left: -11rem;
+  color: #fff;
+  border: 1px solid #fff;
 }
 
 /* navigation  */
@@ -95,15 +104,76 @@ button:hover{
   color: rgb(255, 255, 255);
 }
 
-.btn{
-  flex-direction: column;
-  justify-content: center;
+/* library */
+
+.library h1{
+  height: 10vh;
+  display: flex;
   align-items: center;
-  margin-top: 6rem;
-  margin-left: -11rem;
-  color: #fff;
+  justify-content: center;
+
+}
+
+.card{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25rem;
+}
+
+.btn-primary{
+  margin: 0 -12rem;
+  width: 12rem;
+  background-color: #00d3b7cb;
+}
+
+
+.btn-primary:hover{
+  background-color: rgba(0, 109, 91, 0.644);
   border: 1px solid #fff;
 }
+
+
+
+
+
+
+
+/* image */
+
+.img-1{
+  background-image: url("/src/images/img-2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 335px;
+  height: 450px;
+}
+.img-2{
+  background-image: url("/src/images/img-4.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 335px;
+  height: 450px;
+}
+.img-3{
+  background-image: url("/src/images/img-3.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 335px;
+  height: 450px;
+}
+.img-4{
+  background-image: url("/src/images/img-5.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 335px;
+  height: 450px;
+}
+
 
 
 
