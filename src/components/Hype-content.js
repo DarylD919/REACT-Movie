@@ -1,54 +1,59 @@
 import React from 'react'
+import image1 from '../images/img-6.jpg'
+import image2 from '../images/img-7.jpg'
+import image3 from '../images/img-8.jpg'
+import image4 from '../images/img-9.jpg'
 
 export default function HypeContent() {
     return (
         <div className="max-width">
             <div className="row">
-                <div class="card text-center">
-                    <div class="card-header">Batman</div>
+                <div className="card text-center">
+                    <div className="card-header">Batman</div>
                         <div className="card-image-left">
-                            <div className="img-6" />
+                            <img src={image1} alt="image6" className="img-hype" />
                         </div>
-                    <div class="card-body">
-                        <h5 class="card-title">Special title treatment</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <a href="/" class="btn btn-primary">Click Me</a>
+                    <div className="card-body">
+                        <h5 className="card-title">Some Text</h5>
+                        <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <a href="/" className="btn btn-primary">Click Me</a>
                     </div>
                 </div>
-                <div class="card text-center">
-                    <div class="card-header">Avengers</div>
+                <div className="card text-center">
+                    <div className="card-header">Avengers</div>
                         <div className="card-image-left">
-                            <div className="img-7" />
+                        <img src={image2} alt="image6" className="img-hype" />
                         </div>
-                    <div class="card-body">
-                        <h5 class="card-title">Special title treatment</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <a href="/" class="btn btn-primary">Click Me</a>
+                    <div className="card-body">
+                        <h5 className="card-title">Some Text</h5>
+                        <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <a href="/" className="btn btn-primary">Click Me</a>
                     </div>
                 </div>
-                <div class="card text-center">
-                    <div class="card-header">Every Disney movie</div>
+                <div className="card text-center">
+                    <div className="card-header">Every Disney movie</div>
                         <div className="card-image-left">
-                            <div className="img-8" />
+                            <img src={image3} alt="image6" className="img-hype" />
                         </div>
-                    <div class="card-body">
-                        <h5 class="card-title">Special title treatment</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <a href="/" class="btn btn-primary">Click Me</a>
+                    <div className="card-body">
+                        <h5 className="card-title">Some Text</h5>
+                        <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <a href="/" className="btn btn-primary">Click Me</a>
                     </div>
                 </div>
-                <div class="card text-center">
-                    <div class="card-header">Every film direct by Christopher Nolan</div>
+                <div className="card text-center">
+                    <div className="card-header">Every film direct by Christopher Nolan</div>
                         <div className="card-image-left">
-                            <div className="img-9" />
+                        <img src={image4} alt="image6" className="img-hype" />
                         </div>
-                    <div class="card-body">
-                        <h5 class="card-title">Special title treatment</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <a href="/" class="btn btn-primary">Click Me</a>
+                    <div className="card-body">
+                        <h5 className="card-title">Some Text</h5>
+                        <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <a href="/" className="btn btn-primary">Click Me</a>
                     </div>
                 </div>
             </div>
         </div>
     )
 }
+
