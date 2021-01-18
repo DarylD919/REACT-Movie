@@ -9,6 +9,7 @@
 .signin{
   display: flex;
   height: 90vh;
+  padding: 10px 10px;
   align-items: center;
   justify-content: center;
 }
@@ -138,6 +139,15 @@ button:hover{
 
 /* Hype */
 
+.hype{
+  padding: 10px 30px;
+
+}
+
+.hype .max-width{
+  max-width: 1300px;
+}
+
 .hype h1{
   height: 10vh;
   display: flex;
@@ -145,8 +155,29 @@ button:hover{
   justify-content: center;
 }
 
+.hype .card-header{
+  width: 100%;
+}
 
+.hype .text-center{
+  margin: 0.5rem;
+  width: 100%;
+  height: 15rem;
+}
 
+.hype .btn-primary{
+  margin: 3rem 0;
+}
+
+.hype .card-body{
+  width: 100%;
+}
+
+.card-image-left{
+  position: absolute;
+  top: 4rem;
+  left: 1rem;
+}
 
 
 
@@ -188,6 +219,38 @@ button:hover{
   height: 450px;
 }
 
+.img-6{
+  background-image: url("/src/images/img-6.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 325px;
+  height: 150px;
+}
+.img-7{
+  background-image: url("/src/images/img-7.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 325px;
+  height: 150px;
+}
+.img-8{
+  background-image: url("/src/images/img-8.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 325px;
+  height: 150px;
+}
+.img-9{
+  background-image: url("/src/images/img-9.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 325px;
+  height: 150px;
+}
 
 
 
