@@ -5,15 +5,6 @@
   font-family: 'Kanit', sans-serif;
 }
 
-.home,
-.signin{
-  display: flex;
-  height: 90vh;
-  padding: 10px 10px;
-  align-items: center;
-  justify-content: center;
-}
-
 .max-width{
   max-width: 1300px;
 }
@@ -96,6 +87,13 @@ button:hover{
 /* layout */
 
 /* home */
+.home{
+  display: flex;
+  height: 90vh;
+  padding: 10px 10px;
+  align-items: center;
+  justify-content: center;
+}
 .home{
   background-image: linear-gradient(120deg, rgb(56, 56, 56), rgba(0, 0, 0, 0.5)), url('/src/images/img-1.jpg');
   background-position: center;
@@ -180,6 +178,69 @@ button:hover{
 }
 
 
+/* signin */
+
+.signin{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.signin h1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 3rem auto;
+  font-size: 3rem;
+}
+
+.mb-3{
+  width: 50rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.reg:hover{
+  text-decoration: none;
+}
+
+.signin .btn-primary{
+  max-width: 25rem;
+  width: 100%;
+  margin: 2rem 13rem;
+}
+
+/* register */
+
+.register{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.register h1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1.5rem auto;
+  font-size: 3rem;
+}
+
+.input-group-text{
+  font-size: 0.8rem;
+  margin: 0 0.5rem;
+}
+
+.form-select{
+  max-width: 25rem;
+  width: 100%;
+}
+
+.register .btn-primary{
+  max-width: 25rem;
+  width: 100%;
+  margin: 2rem 13rem;
+}
 
 /* image */
 

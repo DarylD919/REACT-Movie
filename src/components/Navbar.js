@@ -19,7 +19,7 @@ return (
                         <Link to="/hype" className="nav-links">Hype</Link>
                     </li>
                     <li class="nav-item">
-                        <Link to="/signin" className="nav-links-button">SignIn</Link>
+                        <Link to="/signin" className="nav-links-button">Sign In</Link>
                     </li>
                 </ul>
             </div>
