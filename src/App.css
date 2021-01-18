@@ -6,7 +6,6 @@
 }
 
 .home,
-.hype,
 .signin{
   display: flex;
   height: 90vh;
@@ -106,6 +105,10 @@ button:hover{
 
 /* library */
 
+.library{
+  padding: 10px 20px;
+}
+
 .library h1{
   height: 10vh;
   display: flex;
@@ -118,7 +121,7 @@ button:hover{
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 25rem;
+  width: 20rem;
 }
 
 .btn-primary{
@@ -133,6 +136,14 @@ button:hover{
   border: 1px solid #fff;
 }
 
+/* Hype */
+
+.hype h1{
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 
 
@@ -146,31 +157,34 @@ button:hover{
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  width: 335px;
+  width: 325px;
   height: 450px;
+
 }
 .img-2{
   background-image: url("/src/images/img-4.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  width: 335px;
+  width: 325px;
   height: 450px;
+
 }
 .img-3{
   background-image: url("/src/images/img-3.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  width: 335px;
+  width: 325px;
   height: 450px;
+
 }
 .img-4{
   background-image: url("/src/images/img-5.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  width: 335px;
+  width: 325px;
   height: 450px;
 }
 

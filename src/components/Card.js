@@ -21,7 +21,7 @@ export default function Card() {
                 </div>
             </div>
             <div class="card text-center">
-            <div class="img-3" />
+                    <div class="img-3" />
                 <div class="card-body">
                     <h5 class="card-title">Horror</h5>
                     <p class="card-text">Prepare to be scared</p>
@@ -29,15 +29,13 @@ export default function Card() {
                 </div>
             </div>
             <div class="card text-center">
-                <div class="img-4" />
+                    <div class="img-4" />
                 <div class="card-body">
                     <h5 class="card-title">Adventure</h5>
                     <p class="card-text">Adventure awaits</p>
                     <a href="/" class="btn btn-primary">Library</a>
                 </div>
             </div>
-            
-
         </div>
     )
 }
