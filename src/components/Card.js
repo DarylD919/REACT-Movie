@@ -1,5 +1,5 @@
 import React from 'react'
-import image1 from '../images/img-1.jpg'
+import image5 from '../images/img-5.jpg'
 import image2 from '../images/img-2.jpg'
 import image4 from '../images/img-4.jpg'
 import image3 from '../images/img-3.jpg'
@@ -9,7 +9,7 @@ export default function Card() {
     return (
         <div className="card-group">
             <div className="card text-center">
-                <img src={image1} className="img-card" alt="card" />
+                <img src={image2} className="img-card" alt="card" />
                 <div className="card-body">
                     <h5 className="card-title">Action</h5>
                     <p className="card-text">Action packed </p>
@@ -17,7 +17,7 @@ export default function Card() {
                 </div>
             </div>
             <div className="card text-center">
-                <img src={image2} className="img-card" alt="card"/>   
+                <img src={image4} className="img-card" alt="card"/>   
                 <div className="card-body">
                     <h5 className="card-title">Romance</h5>
                     <p className="card-text">Need a little love</p>
@@ -33,7 +33,7 @@ export default function Card() {
                 </div>
             </div>
             <div className="card text-center">
-                    <img src={image4} className="img-card" alt="card" />
+                    <img src={image5} className="img-card" alt="card" />
                 <div className="card-body">
                     <h5 className="card-title">Adventure</h5>
                     <p className="card-text">Adventure awaits</p>
